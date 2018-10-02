@@ -62,13 +62,13 @@ Solutions to variables, in order
   <th>5</th>
   </tr>
 
-If the above is the matrix you wish to solve mod 7, the input should be like this:  
-5
-7
-1 1 1 1 4
-2 3 5 4 1
-2 3 4 6 5
-1 2 3 4 5
-1 4 2 3 5
-
-4 3 2 1 5
+To solve this matrix mod 7, the input should be like this:  
+5  
+7  
+1 1 1 1 4  
+2 3 5 4 1  
+2 3 4 6 5  
+1 2 3 4 5  
+1 4 2 3 5  
+  
+4 3 2 1 5  
