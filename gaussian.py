@@ -59,17 +59,17 @@ if __name__ == "__main__":
     from fractions import Fraction
     n = int(input())
     mod = int(input())
-    A = [[0 for j in range(n+1)] for i in range(n)]
+    A = [[0 for j in range(0, n+1)] for i in range(0, n)]
 
     # Read input data
     for i in range(0, n):
-        line = map(Fraction, raw_input().split(" "))
+        line = map(Fraction, input().split(" "))
         for j, el in enumerate(line):
             A[i][j] = el
-    raw_input()
+    input() #empty line
 
-    line = raw_input().split(" ")
-    lastLine = map(Fraction, line)
+    line = input().split(" ")
+    lastLine = list(map(Fraction, line))
     for i in range(0, n):
         A[i][n] = lastLine[i]
 
