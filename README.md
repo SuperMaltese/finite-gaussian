@@ -1,6 +1,6 @@
 # gaussian
 Calculates solution to a system of linear equations mod m using Gaussian Elimination  
-m should be prime 
+m should be prime   
 Adapted from martin-thoma.com/solving-linear-equations-with-gaussian-elimination
 <h2>Inputs</h2>
 <ul>
